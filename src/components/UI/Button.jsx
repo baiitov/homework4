@@ -7,7 +7,7 @@ const Button = ({ onClick, children, ...rest }) => {
 			
 			{...rest}
 			style={{
-				padding: '10px 15px',
+				padding: '100px 20px',
 				backgroundColor: 'pink',
 				border: 'none',
 			}}
@@ -16,5 +16,6 @@ const Button = ({ onClick, children, ...rest }) => {
 		</button>
 	)
 }
+// buttons
 
 export default Button
